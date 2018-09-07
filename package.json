@@ -1,0 +1,20 @@
+{
+  "name": "react-todomvc-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Liam McArdle <mcardle.liam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
+}
